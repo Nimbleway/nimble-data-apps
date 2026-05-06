@@ -15,9 +15,9 @@ Built with [Nimble Web Search Agents](https://nimbleway.com) — one API that ta
 
 | Consensus | Count |
 |---|---|
-| Strong | 34 |
-| Moderate | 27 |
-| Split | 39 |
+| Strong | 44 |
+| Moderate | 48 |
+| Split | 8 |
 
 ---
 
