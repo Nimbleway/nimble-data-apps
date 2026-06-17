@@ -60,13 +60,11 @@ Three ready-to-use configs are included in `config/`:
 |---|---|
 | `example_config.json` | Acme AI Notes (placeholder, safe to copy and adapt) |
 | `nimble_config.json` | Nimble's own Search API and web data platform |
-| `mentiondrop_config.json` | MentionDrop, a web mention monitoring tool |
 
-Run any of them with:
+Run either with:
 
 ```bash
 python3 collect.py --config config/nimble_config.json
-python3 collect.py --config config/mentiondrop_config.json
 ```
 
 ## Create your own config
@@ -139,8 +137,7 @@ consumer-sentiment-monitor/
 ├── dashboard.py
 ├── config/
 │   ├── example_config.json
-│   ├── nimble_config.json
-│   └── mentiondrop_config.json
+│   └── nimble_config.json
 ├── data/
 │   └── sample_run/
 │       ├── report.json
