@@ -1,0 +1,40 @@
+{
+  "product_name": "MentionDrop",
+  "launch_context": "MentionDrop is a real-time web mention monitoring tool built on the Ahrefs Firehose API. Tracking public sentiment, competitor comparisons, and early user reactions.",
+  "country": "US",
+  "locale": "en-US",
+  "search_depth": "lite",
+  "include_answer": true,
+  "max_results": 8,
+  "queries": [
+    {
+      "id": "reddit_reactions",
+      "label": "Reddit reactions",
+      "focus": "social",
+      "source_type": "reddit/social",
+      "query": "MentionDrop web mention monitoring tool Reddit reactions review"
+    },
+    {
+      "id": "social_launch_chatter",
+      "label": "Social launch chatter",
+      "focus": "social",
+      "source_type": "social",
+      "query": "MentionDrop launch reactions X Twitter LinkedIn Product Hunt indie hackers"
+    },
+    {
+      "id": "vs_alternatives",
+      "label": "Competitor comparisons",
+      "focus": "general",
+      "search_depth": "fast",
+      "source_type": "reviews/comparison",
+      "query": "MentionDrop vs Google Alerts Mention.com Brand24 mention monitoring alternatives comparison"
+    },
+    {
+      "id": "news_blog_coverage",
+      "label": "News and blog coverage",
+      "focus": "news",
+      "source_type": "news/blogs",
+      "query": "MentionDrop mention monitoring tool launch coverage review blog"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "launch_context": "A new AI meeting-notes product launched this week for product and marketing teams.",
   "country": "US",
   "locale": "en-US",
-  "search_depth": "fast",
+  "search_depth": "lite",
   "include_answer": true,
   "max_results": 8,
   "queries": [
@@ -25,6 +25,7 @@
       "id": "review_and_comparison",
       "label": "Reviews and comparison pages",
       "focus": "general",
+      "search_depth": "fast",
       "source_type": "reviews/comparison",
       "query": "Acme AI Notes review alternatives complaints best AI meeting notes"
     },
